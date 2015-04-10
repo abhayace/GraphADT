@@ -10,12 +10,12 @@
 #include<string>
 class vertex{
     
-    string name;
+    std::string name;
     int indegree;
     int outdegree;
 public:
     vertex(char* name);
-    string getName();
+    std::string getName();
 };
 
 #endif	/* VERTEX_H */
