@@ -14,8 +14,10 @@ class vertex{
     int indegree;
     int outdegree;
 public:
-    vertex(){
-        
+    vertex(char* name){
+        this->name = name;
+        indegree = 0;
+        outdegree = 0;
     }
 };
 

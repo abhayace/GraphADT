@@ -8,8 +8,9 @@
 #ifndef UNDIRECTED_GRAPH_H
 #define	UNDIRECTED_GRAPH_H
 
-class undirectedgraph:public graph{
-    
+class UDGraph:public DGraph{
+     virtual void addEdge(vertex v1,vertex v2)=0;
+     virtual bool deleteEdge(vertex src, vertex dst)=0;
 };
 
 #endif	/* UNDIRECTED_GRAPH_H */

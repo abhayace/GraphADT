@@ -4,7 +4,6 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>directedgraph.h</itemPath>
       <itemPath>graph.h</itemPath>
       <itemPath>undirected_graph.h</itemPath>
       <itemPath>vertex.h</itemPath>
@@ -41,8 +40,6 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="directedgraph.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="graph.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="graph.h" ex="false" tool="3" flavor2="0">
@@ -74,8 +71,6 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="directedgraph.h" ex="false" tool="3" flavor2="0">
-      </item>
       <item path="graph.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="graph.h" ex="false" tool="3" flavor2="0">

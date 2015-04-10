@@ -7,3 +7,9 @@ bool graph::isEmpty(){
         return true;
     return false;
 }
+
+vertex graph::addNode(vertex node){
+    nodes.push_back(node);
+    
+    
+}
