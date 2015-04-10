@@ -10,15 +10,12 @@
 #include<string>
 class vertex{
     
-    char name[20];
+    string name;
     int indegree;
     int outdegree;
 public:
-    vertex(char* name){
-        this->name = name;
-        indegree = 0;
-        outdegree = 0;
-    }
+    vertex(char* name);
+    string getName();
 };
 
 #endif	/* VERTEX_H */

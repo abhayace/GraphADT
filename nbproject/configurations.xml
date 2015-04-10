@@ -15,7 +15,10 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>MatrixGraph.cpp</itemPath>
+      <itemPath>MatrixUDGraph.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
+      <itemPath>vertex.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -39,11 +42,17 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="MatrixGraph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MatrixUDGraph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="graph.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="undirected_graph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vertex.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="vertex.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -68,11 +77,17 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="MatrixGraph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="MatrixUDGraph.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="graph.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="undirected_graph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="vertex.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="vertex.h" ex="false" tool="3" flavor2="0">
       </item>
